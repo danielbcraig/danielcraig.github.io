@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+</head>
+
+
+
+<header>
+
+	<h1>
+		Cylinder
+	</h1>
+
+	<a href="../index.html"> Home </a>
+	
+</header>
+
+<body>
+
+
+	<nav class="menu">	
+		<h4>Prisms</h4>
+	
+		<a href="./rectangularPrism.html"> Rectangular Prism </a> <br>
+		<a href="./triangularPrism.html"> Triangular Prism </a> <br>
+		<a href="./cylinder.html"> Cylinder </a> <br>
+	
+	
+		<h4>Other shapes</h4>
+	
+		<a href="./cube.html"> cube </a> <br>		
+		<a href="./cylinder.html"> Cylinder </a> <br>
+	
+	</nav>
+	
+	<article class="mainBit">
+	
+	<h2>
+		Enter the values below
+	</h2>
+	
+	<p>
+		both 'radius' and 'diameter' do not have to be specified, only one. <br> <br>
+		radius <input type="number" name="radius" id="value1" class="entryBox" min="0"> <br>
+		diameter <input type="number" name="diameter" id="value1.5" class="entryBox" min="0"> <br>
+		height <input type="number" name="height" id="value2" class="entryBox" min="0"> <br>
+		circle degrees <input type="number" name="Cdeg" id="value3" class="entryBox" min="0" max="360"> <br>
+		
+		<input type="submit" id="submit" value="calculate">
+		
+		<br>
+		
+	</p>
+	
+	<p>
+		
+		Volume = <span id="Vol"></span> units
+		
+		<br> <br>
+		
+		Surface Area = <span id="SuAr"></span> units
+		
+	</p>
+	
+	</article>
+
+	<script type="text/javascript" src="./cylinder.js"></script>
+</body>
+
+
+</html>

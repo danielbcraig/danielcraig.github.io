@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+
+* { box-sizing: border-box; }
+
+
+body {
+	background-color: #FFF1DC;
+	color: #342309;
+	font-family: 'Noto Serif', serif;
+}
+
+.left, .right {
+	width: 40%;
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+	text-align: center;
+}
+
+
+a {
+	display: block;
+	padding: 15px;
+	background-color: #FDC168;
+	color: #975B02;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 8px;
+	margin: 20px;
+	-webkit-transition: all 0.5s;
+
+}
+
+a:hover {
+	background-color: #342309;
+	color: #FDC168;
+	padding: 17px;
+}
+
+h4 {
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	border-bottom: 2px solid #342309;
+}
+
+header {
+	background-color: #FDC168;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+
+.menu {
+	width: 10%;
+	display: inline-block;
+	border-right: 2px solid #342309; 
+	padding: 10px;
+	margin: 10px;
+}
+
+.menu > a {
+	margin: 5px;
+}
+
+.mainBit {
+	display: inline-block;
+	vertical-align: top;
+	width: 85%;
+	padding: 20px;
+	margin: 10px;
+	margin-top: 0px;
+}
+
+h2 {
+	padding: 30px;
+	border-bottom: 2px solid #342309;
+	margin: auto;
+	margin-right: 70%;
+}
+
+
+input {
+	margin: 5px;
+}
+
+#submit {
+	background-color: #FDC168;
+	color: #975B02;
+	font-size: 20px;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 5px;
+	display: block;
+	-webkit-transition: all 0.5s;
+}
+
+#submit:hover {
+	background-color: #342309;
+	color: #FDC168;
+	padding: 13px;
+	margin: 2px;
+	
+}
+
+input[type=number]{
+	padding: 5px;
+	border-radius: 3px;
+	display: inline-block;
+	border: 2px solid #975B02;
+	outline: none;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	
+}
+input[type=number]:focus {
+    border: 2px solid #342309;
+}
+
+header > a, header > h1 {
+	display: inline-block;
+	width: 20%;
+}
+
+header > h1 {
+	margin-right: 50%
+}
+
+header > a {
+	background-color: #FB9902;
+	padding: 15px;
+	text-align: center;
+}
+
+header > a:hover {
+	padding: 15px;
+}
